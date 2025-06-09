@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tesla Investing - Sign Up</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="Tesla-sign-up-page-design.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="photo_2025-06-07_09-26-46.jpg" alt="Tesla Logo" class="tesla-logo">
+            <span>TESLA TRADE OPTIONS</span>
+        </div>
+        <nav class="navbar">
+            <ul class="sidebar">
+                <li onclick= hideSidebar()><a href=""><svg xmlns="http://www.w3.org/2000/svg" height="26px" viewBox="0 -960 960 960" width="26px" fill="#e3e3e3"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></a></li>
+                <li><a href="index.html" style="color: white;"><b>Home</b></a></li>
+                <li><a href="Tesla-about-us-page.html" style="color: white;"><b>About Us</b></a></li>
+                <li><a href="Tesla-contact-us-page.html" style="color: white;"><b>Contact Us</b></a></li>
+                <li><a href="Tesla-sign-in-page.html" style="color: white;"><b>Sign in</b></a></li>
+                <li><a href="Tesla-sign-up-page.html" style="color: white;"><b>Sign up</b></a></li>
+            </ul>
+            <ul class="nav-links">
+                <li class="hideOnMobile"><a href="index.html">Home</a></li>
+                <li class="hideOnMobile"><a href="Tesla-about-us-page.html">About Us</a></li>
+                <li class="hideOnMobile"><a href="Tesla-contact-us-page.html">Contact Us</a></li>
+                <li class="hideOnMobile"><a href="Tesla-sign-in-page.html">Sign in</a></li>
+                <li class="hideOnMobile"><a href="Tesla-sign-up-page.html">Sign up</a></li>
+                <li class="menu-button" onclick=showSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="26px" viewBox="0 -960 960 960" width="26px" fill="#e3e3e3"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="signup-hero">
+        <h1>Create Your Account</h1>
+        <h2>Start Your Investing Journey with Tesla Investing App</h2>
+        <p>Ready to start investing? Sign in to your existing account or sign up for a new one with Tesla Investing Platform. Whether you're a seasoned investor or new to the world of advanced investing, our platform provides the tools and support you need to succeed. Join us today and navigate the financial markets with precision.</p>
+    </section>
+
+    <section class="signup-form">
+        <h3>Sign Up</h3>
+        <form id="signupForm">
+            <input type="text" placeholder="Your name" id="firstName" required>
+            <input type="text" placeholder="Your last name" id="lastName" required>
+            <input type="email" placeholder="Email" id="email" required>
+            <div class="phone-input">
+                <select id="countryCode">
+                    <option value="+1">+1</option>
+                    <option value="+234">+234</option>
+                    <option value="+44">+44</option>
+                </select>
+                <input type="tel" placeholder="Phone" id="phone" required>
+            </div>
+            <button type="submit">Create Your Account</button>
+            <p class="terms">Signing up means you agree to our <a href="#">Terms of Use</a> and acknowledge our <a href="#">Privacy Policy</a></p>
+        </form>
+    </section>
+
+    <section class="why-join">
+        <h2>Why Join Tesla Investing?</h2>
+        <p>Tesla Investing Platform offers cutting-edge technology, expert support, and a community of like-minded investors. Here's why you should join us:</p>
+        <div class="join-reasons">
+            <h3>Advanced Tools</h3>
+            <p><strong>State-of-the-Art Technology</strong><br>Leverage advanced investing tools and real-time data to make informed decisions and optimize your investment strategy.</p>
+            <h3>Expert Support</h3>
+            <p><strong>Dedicated Assistance</strong><br>Our team of experts is here to provide you with the guidance and support you need to succeed in the investing world.</p>
+            <h3>Community</h3>
+            <p><strong>Join a Thriving Community</strong><br>Connect with other investors, share insights, and learn from each other in our vibrant investing community.</p>
+        </div>
+        <p>Join Tesla Investing Platform today and take the first step towards a successful investing journey. Your financial future starts here.</p>
+    </section>
+
+    <footer>
+        <div class="footer-links">
+            <h3>COMPANY</h3>
+            <ul>
+                <li><a href="Tesla-about-us-page.html">About Us</a></li>
+                <li><a href="Tesla-contact-us-page.html">Contact</a></li>
+                <li><a href="Tesla-sign-in-page.html">Sign Up</a></li>
+                <li><a href="Tesla-sign-in-page.html">Login</a></li>
+            </ul>
+            </div>
+        <div class="footer-links">
+            <h3>SUPPORT</h3>
+            <ul>
+                <li><a href="Tesla-privacy-policy-page.html">Privacy Policy</a></li>
+                <li><a href="Tesla-terms-of-use-page.html">Terms of Use</a></li>
+            </ul>
+        </div>
+        <div class="footer-text">
+            <p>While trading Tesla stocks offers the potential for significant financial gains, it's essential to recognize the risk of substantial losses. Statistics indicate that around 70% of investors may encounter financial challenges.</p>
+            <p>Please be aware that some names and entities on our site, such as Tesla Investing, are used for marketing purposes and may not represent real entities. Testimonials and media content might feature actors and are intended for promotional use only.</p>
+            <p>We strongly recommend thoroughly reviewing the Terms & Conditions and Disclaimers of any trading platforms you intend to use. Understanding your local tax obligations for capital gains is crucial. For instance, in the United States, options trading must adhere to CFTC regulations or applicable legal exemptions.</p>
+            <p>In the United Kingdom, the FCA's policy statement PS20/10 limits certain CFD marketing practices, highlighting the importance of compliance with financial regulations.</p>
+            <p>By submitting your details to us, you agree to their use by third parties in accordance with our Privacy Policy and Terms & Conditions. As an investor, you have the flexibility to choose your investment approach, whether through automated trading software, professional brokers, or independent trading. The choice is yours.</p>
+            <p>© 2025 Tesla Investing. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="Tesla-sign-up-page.js">
+        function showSidebar() {
+            const sidebar = document.querySelector('.sidebar')
+            sidebar.style.display = 'flex'
+        }
+        function hideSidebar() {
+            const sidebar = document.querySelector('.sidebar')
+            sidebar.style.display = 'none'
+        }
+    </script>
+</body>
+</html>
